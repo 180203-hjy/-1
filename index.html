@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>+1教你学商务 - 2025期末复习终极版</title>
+    <title>+1教你学商务 - 6C原则终极强化版</title>
     <!-- 引入必要的库 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
@@ -49,63 +49,329 @@
         // 2. 题库数据源 (已核对为完整原句)
         // ==========================================
 
-        const principlesOptions = [
-            "A. Courtesy (礼貌)",
-            "B. Correctness (正确)", 
-            "C. Conciseness (简洁)",
-            "D. Clarity (清晰)", 
-            "E. Concreteness (具体)", 
-            "F. Completeness (完整)"
-        ];
-
         const part1AQuestions = [
+            // --- 1. Courtesy (礼貌) ---
             {
                 id: 'p1a-1',
-                category: 'Part I-A: 6C Principles',
-                question: "Definition: Treating people with respect and friendly human concern. Visualizing the reader before starting to write. (尊重他人，通过'你态度'关注读者)",
-                options: principlesOptions,
-                correctAnswer: "A. Courtesy (礼貌)",
-                explanation: "【解析】Courtesy (礼貌) 的核心就是 'Treating people with respect' 和使用 'You-viewpoint' (你态度)。"
+                category: 'Part I-A: Courtesy',
+                question: "Which of the following is the definition of **Courtesy**?",
+                options: [
+                    "Treating people with respect and friendly human concern.",
+                    "Writing in the fewest possible words without sacrificing completeness.",
+                    "Using correct grammar, punctuation and spelling.",
+                    "Being vivid, specific and definite rather than vague."
+                ],
+                correctAnswer: "Treating people with respect and friendly human concern.",
+                explanation: "【原文】Courtesy: Treating people with respect and friendly human concern."
             },
             {
                 id: 'p1a-2',
-                category: 'Part I-A: 6C Principles',
-                question: "Definition: Writing in the fewest possible words without sacrificing completeness and courtesy. (在不牺牲完整和礼貌的前提下用最少的词)",
-                options: principlesOptions,
-                correctAnswer: "C. Conciseness (简洁)",
-                explanation: "【解析】Conciseness (简洁) 的关键词是 'fewest possible words' (最少的词)。"
+                category: 'Part I-A: Courtesy',
+                question: "According to **Courtesy**, how should you handle refusing a demand?",
+                options: [
+                    "Be aggressive and firm to make the point clear.",
+                    "Your letter still should be very mild and tactful.",
+                    "Use short sentences and familiar words only.",
+                    "Omit words or expressions to be concise."
+                ],
+                correctAnswer: "Your letter still should be very mild and tactful.",
+                explanation: "【原文】Being very polite, even in asking the addressee to pay back the debts or refusing his demands, your letter still should be very mild and tactful."
             },
             {
                 id: 'p1a-3',
-                category: 'Part I-A: 6C Principles',
-                question: "Definition: Using correct sentence structures, grammar, punctuation, and spelling. (使用正确的句式、语法、标点和拼写)",
-                options: principlesOptions,
-                correctAnswer: "B. Correctness (正确)",
-                explanation: "【解析】Correctness (正确) 指的是语言规范，如语法(grammar)和标点(punctuation)无误。"
+                category: 'Part I-A: Courtesy',
+                question: "What does **Courtesy** suggest about replying to letters?",
+                options: [
+                    "Reply only when you have all the data.",
+                    "Being prompt in replying to the opposite part’s letter.",
+                    "Wait for a few days to show busy-ness.",
+                    "Reply using short sentences."
+                ],
+                correctAnswer: "Being prompt in replying to the opposite part’s letter.",
+                explanation: "【原文】Being prompt in replying to the opposite part’s letter."
             },
             {
                 id: 'p1a-4',
-                category: 'Part I-A: 6C Principles',
-                question: "Definition: Telling the reader exactly what the author wants and needs to know, using familiar words and simple sentences. (使用熟悉的词和简单句，清晰表达)",
-                options: principlesOptions,
-                correctAnswer: "D. Clarity (清晰)",
-                explanation: "【解析】Clarity (清晰) 强调易读性，使用 'familiar words' (熟悉的词) 和 'simple sentences' (简单句)。"
+                category: 'Part I-A: Courtesy',
+                question: "If a detailed prompt reply is impossible, what does **Courtesy** dictate?",
+                options: [
+                    "Write a short note to explain why.",
+                    "Ignore it until you can reply.",
+                    "Forward it to a colleague.",
+                    "Call them immediately."
+                ],
+                correctAnswer: "Write a short note to explain why.",
+                explanation: "【原文】If a detailed prompt reply is impossible on the same day, write a short note to explain why."
             },
             {
                 id: 'p1a-5',
-                category: 'Part I-A: 6C Principles',
-                question: "Definition: Being vivid, specific, and specific rather than vague, general, and abstract. (生动、具体，避免模糊和抽象)",
-                options: principlesOptions,
-                correctAnswer: "E. Concreteness (具体)",
-                explanation: "【解析】Concreteness (具体) 的反义词是 vague (模糊)，强调使用具体的事实和数据。"
+                category: 'Part I-A: Courtesy',
+                question: "Which of the following are the three aspects of **Courtesy**?",
+                options: [
+                    "Using you-viewpoint, Taking a positive tone, Being conversational.",
+                    "Correct grammar, Correct punctuation, Correct spelling.",
+                    "Short words, Short sentences, Short paragraphs.",
+                    "Vividness, Specificity, Definiteness."
+                ],
+                correctAnswer: "Using you-viewpoint, Taking a positive tone, Being conversational.",
+                explanation: "【原文】Courtesy usually involves three aspects: Using you-viewpoint, Taking a positive tone, Being conversational."
             },
             {
                 id: 'p1a-6',
-                category: 'Part I-A: 6C Principles',
-                question: "Definition: Including all the necessary information and data in the message to help the sender get the receiver's response. (包含所有必要信息)",
-                options: principlesOptions,
-                correctAnswer: "F. Completeness (完整)",
-                explanation: "【解析】Completeness (完整) 的核心是 'all necessary information' (所有必要信息)，缺一不可。"
+                category: 'Part I-A: Courtesy',
+                question: "What does **You-viewpoint** (an aspect of Courtesy) mean?",
+                options: [
+                    "Focus interest on the reader, emphasize 'you' and 'your'.",
+                    "Emphasize 'we' and 'our' to show authority.",
+                    "Write in the fewest possible words.",
+                    "Include all necessary information."
+                ],
+                correctAnswer: "Focus interest on the reader, emphasize 'you' and 'your'.",
+                explanation: "【原文】You-viewpoint: focus interest on the reader, emphasize “you” and “your”, de-emphasize “we” and “our”."
+            },
+            {
+                id: 'p1a-7',
+                category: 'Part I-A: Courtesy',
+                question: "How should you state negative ideas to maintain a **Positive Tone**?",
+                options: [
+                    "Use active voice to be clear.",
+                    "Avoid second person pronouns when stating negative ideas.",
+                    "Put them in the first paragraph.",
+                    "Use strong adjectives."
+                ],
+                correctAnswer: "Avoid second person pronouns when stating negative ideas.",
+                explanation: "【原文】Accent on Positive Language: ... avoid second person pronouns when stating negative ideas."
+            },
+            {
+                id: 'p1a-8',
+                category: 'Part I-A: Courtesy',
+                question: "What sentence structures are suggested for negative ideas under **Courtesy**?",
+                options: [
+                    "Use passive voice or subjunctive mood.",
+                    "Use short, simple sentences.",
+                    "Use complex compound sentences.",
+                    "Use imperative sentences."
+                ],
+                correctAnswer: "Use passive voice or subjunctive mood.",
+                explanation: "【原文】Use passive voice or subjunctive mood to convey negative ideas."
+            },
+            {
+                id: 'p1a-9',
+                category: 'Part I-A: Courtesy',
+                question: "What defines **Conversational Style** in Courtesy?",
+                options: [
+                    "Use warm and natural language, consistent with how you would speak in person.",
+                    "Use formal business jargon and strict structure.",
+                    "Use slang and abbreviations.",
+                    "Use vivid and specific descriptions."
+                ],
+                correctAnswer: "Use warm and natural language, consistent with how you would speak in person.",
+                explanation: "【原文】Conversational Style: use warm and natural language, consistent with how you would speak in person."
+            },
+
+            // --- 2. Correctness (正确) ---
+            {
+                id: 'p1a-10',
+                category: 'Part I-A: Correctness',
+                question: "Which of the following is the primary requirement of **Correctness**?",
+                options: [
+                    "Use correct grammar, punctuation and spelling.",
+                    "Treat people with respect.",
+                    "Use short familiar words.",
+                    "Include all necessary information."
+                ],
+                correctAnswer: "Use correct grammar, punctuation and spelling.",
+                explanation: "【原文】Use correct grammar, punctuation and spelling; choose the correct level of language."
+            },
+            {
+                id: 'p1a-11',
+                category: 'Part I-A: Correctness',
+                question: "Which **sentence fault** involves joining two sentences with a comma?",
+                options: [
+                    "Comma splices (incorrectly joining two sentences with a comma).",
+                    "Fragments (lacking subject or verb).",
+                    "Run-on sentences (joining thoughts without punctuation).",
+                    "Dangling modifiers."
+                ],
+                correctAnswer: "Comma splices (incorrectly joining two sentences with a comma).",
+                explanation: "【原文】Avoid sentence faults: comma splices (incorrectly joining two sentences with a comma)."
+            },
+            {
+                id: 'p1a-12',
+                category: 'Part I-A: Correctness',
+                question: "What is a **Run-on sentence** according to Correctness?",
+                options: [
+                    "Joining two complete thoughts without proper punctuation.",
+                    "Lacking a subject or verb.",
+                    "Incorrectly joining two sentences with a comma.",
+                    "A sentence that is too long (over 40 words)."
+                ],
+                correctAnswer: "Joining two complete thoughts without proper punctuation.",
+                explanation: "【原文】Run-on sentences (joining two complete thoughts without proper punctuation)."
+            },
+
+            // --- 3. Conciseness (简洁) ---
+            {
+                id: 'p1a-13',
+                category: 'Part I-A: Conciseness',
+                question: "What is the core definition of **Conciseness**?",
+                options: [
+                    "Write in the fewest possible words without sacrificing completeness and courtesy.",
+                    "Use short familiar words and simple short sentences.",
+                    "Include all necessary information and data.",
+                    "Focus interest on the reader."
+                ],
+                correctAnswer: "Write in the fewest possible words without sacrificing completeness and courtesy.",
+                explanation: "【原文】Write in the fewest possible words without sacrificing completeness and courtesy."
+            },
+            {
+                id: 'p1a-14',
+                category: 'Part I-A: Conciseness',
+                question: "Which technique is used to achieve **Conciseness**?",
+                options: [
+                    "Use a word instead of a phrase, a phrase instead of a clause.",
+                    "Use passive voice instead of active voice.",
+                    "Use specific descriptions instead of general ones.",
+                    "Use pronouns instead of names."
+                ],
+                correctAnswer: "Use a word instead of a phrase, a phrase instead of a clause.",
+                explanation: "【原文】Shorten or omit words or expressions: use a word instead of a phrase, a phrase instead of a clause."
+            },
+            {
+                id: 'p1a-15',
+                category: 'Part I-A: Conciseness',
+                question: "To avoid unnecessary repetition (Conciseness), what should you use?",
+                options: [
+                    "Use pronouns and initials instead of repeating long names.",
+                    "Repeat the name to ensure clarity.",
+                    "Use vivid and specific adjectives.",
+                    "Use short sentences."
+                ],
+                correctAnswer: "Use pronouns and initials instead of repeating long names.",
+                explanation: "【原文】Avoid unnecessary repetition: ... use pronouns and initials instead of repeating long names."
+            },
+
+            // --- 4. Clarity (清楚) ---
+            {
+                id: 'p1a-16',
+                category: 'Part I-A: Clarity',
+                question: "What is the goal of **Clarity**?",
+                options: [
+                    "Ensure writings are totally understood with just one reading.",
+                    "Create a goodwill atmosphere.",
+                    "Eliminate surplus words.",
+                    "Avoid sentence faults."
+                ],
+                correctAnswer: "Ensure writings are totally understood with just one reading.",
+                explanation: "【原文】Ensure writings are totally understood with just one reading."
+            },
+            {
+                id: 'p1a-17',
+                category: 'Part I-A: Clarity',
+                question: "What kind of words should you choose for **Clarity**?",
+                options: [
+                    "Proper, short and familiar words.",
+                    "Vivid, specific and definite words.",
+                    "Formal and impressive words.",
+                    "Technical and precise words."
+                ],
+                correctAnswer: "Proper, short and familiar words.",
+                explanation: "【原文】Choose proper, short and familiar words to make the message easy to understand."
+            },
+            {
+                id: 'p1a-18',
+                category: 'Part I-A: Clarity',
+                question: "To make ideas clear, how should you structure your writing?",
+                options: [
+                    "Put one idea in a sentence, one topic in a paragraph.",
+                    "Combine multiple ideas in complex sentences.",
+                    "Use passive voice for objectivity.",
+                    "Use a clause instead of a sentence."
+                ],
+                correctAnswer: "Put one idea in a sentence, one topic in a paragraph.",
+                explanation: "【原文】Make ideas clear: put one idea in a sentence, one topic in a paragraph, one subject in a letter."
+            },
+            {
+                id: 'p1a-19',
+                category: 'Part I-A: Clarity',
+                question: "What is the recommended average sentence length for **Clarity**?",
+                options: [
+                    "About 17-20 words.",
+                    "About 5-10 words.",
+                    "About 30-40 words.",
+                    "Under 7 words."
+                ],
+                correctAnswer: "About 17-20 words.",
+                explanation: "【原文】Use short sentences (average length about 17-20 words)."
+            },
+            {
+                id: 'p1a-20',
+                category: 'Part I-A: Clarity',
+                question: "When should you rewrite a sentence according to **Clarity** rules?",
+                options: [
+                    "Rewrite sentences over 40 words into multiple sentences.",
+                    "Rewrite sentences over 20 words.",
+                    "Rewrite whenever it contains a comma.",
+                    "Rewrite if it uses passive voice."
+                ],
+                correctAnswer: "Rewrite sentences over 40 words into multiple sentences.",
+                explanation: "【原文】Rewrite sentences over 40 words into multiple sentences."
+            },
+
+            // --- 5. Concreteness (具体) ---
+            {
+                id: 'p1a-21',
+                category: 'Part I-A: Concreteness',
+                question: "What defines **Concreteness**?",
+                options: [
+                    "Be vivid, specific and definite rather than vague, general and abstract.",
+                    "Use correct grammar and punctuation.",
+                    "Write in the fewest possible words.",
+                    "Treat people with respect."
+                ],
+                correctAnswer: "Be vivid, specific and definite rather than vague, general and abstract.",
+                explanation: "【原文】Be vivid, specific and definite rather than vague, general and abstract."
+            },
+            {
+                id: 'p1a-22',
+                category: 'Part I-A: Concreteness',
+                question: "When is **Concreteness** especially important?",
+                options: [
+                    "When requiring a response, solving problems, making an offer.",
+                    "When writing to a friend.",
+                    "When writing a short note.",
+                    "When using you-viewpoint."
+                ],
+                correctAnswer: "When requiring a response, solving problems, making an offer.",
+                explanation: "【原文】Especially important when requiring a response, solving problems, making an offer, or giving acceptance."
+            },
+            {
+                id: 'p1a-23',
+                category: 'Part I-A: Concreteness',
+                question: "Which example illustrates **Concreteness** for apples?",
+                options: [
+                    "“Juicy, crispy and tender” instead of “excellent”.",
+                    "“Good quality” instead of “bad”.",
+                    "“Tasty” instead of “nice”.",
+                    "“Red” instead of “colored”."
+                ],
+                correctAnswer: "“Juicy, crispy and tender” instead of “excellent”.",
+                explanation: "【原文】Use specific descriptions (e.g., “juicy, crispy and tender” instead of “excellent” for apples)."
+            },
+
+            // --- 6. Completeness (完整) ---
+            {
+                id: 'p1a-24',
+                category: 'Part I-A: Completeness',
+                question: "What is the definition of **Completeness**?",
+                options: [
+                    "Include all necessary information and data to help senders get receivers’ responses.",
+                    "Ensure writings are totally understood with just one reading.",
+                    "Be vivid, specific and definite.",
+                    "Focus interest on the reader."
+                ],
+                correctAnswer: "Include all necessary information and data to help senders get receivers’ responses.",
+                explanation: "【原文】Include all necessary information and data to help senders get receivers’ responses and achieve desired objectives."
             }
         ];
 
@@ -1061,7 +1327,7 @@
                                 <button onClick={() => startQuiz('part1a')} className="flex flex-col items-center justify-center p-4 bg-white border-2 border-slate-100 hover:border-blue-500 hover:bg-blue-50 rounded-xl transition-all group">
                                     <Icons.List className="w-6 h-6 text-blue-500 mb-2 group-hover:scale-110 transition-transform" />
                                     <div className="text-sm font-bold">Part I-A</div>
-                                    <div className="text-xs text-slate-400">6C原则匹配 (6题)</div>
+                                    <div className="text-xs text-slate-400">6C原则细节题 (24题)</div>
                                 </button>
                                 <button onClick={() => startQuiz('part1b')} className="flex flex-col items-center justify-center p-4 bg-white border-2 border-slate-100 hover:border-blue-500 hover:bg-blue-50 rounded-xl transition-all group">
                                     <Icons.ArrowRight className="w-6 h-6 text-blue-500 mb-2 group-hover:scale-110 transition-transform" />
